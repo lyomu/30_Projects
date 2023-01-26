@@ -8,4 +8,8 @@ var userOne= {
         console.log(this.email, 'has logged out')
     }
 };
-console.log(userOne.name);
+// Change object name
+userOne.name= 'Yoshi';
+userOne.age =25;
+
+// Classes
