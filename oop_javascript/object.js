@@ -21,8 +21,16 @@ class User{
         this.email= email;
         this.name= name;
     }
+    login(){
+        console.log(this.email, 'Just logged in');
+    }
+    logout(){
+        console.log(this.email, 'Just logged out');
+    }
 }
 var userOne = new User ('test@email.com', 'Test');
 var userTwo= new User('test2@email.com', 'Test 2');
-console.log(userOne);
-console.log(userTwo);
+// console.log(userOne);
+// console.log(userTwo);
+userOne.login();
+userTwo.logout();
