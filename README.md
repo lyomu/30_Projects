@@ -1,6 +1,1 @@
-# ﻿Thirty
-Practise
-Projects
-in
-a
-month
+# ﻿Thirty Practise Projects in a month
